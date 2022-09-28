@@ -4,33 +4,38 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1] - 2022-09-01
+
+### Changed
+
+- module.json manifest links
+
 ## [v1.0.0] - 2022-09-01
 
 ### Changed
 
 - initial commit for system support
 
-[v3.1.4] - 8/12/2022
-----------------------------------------------
+## [v3.1.4] - 8/12/2022
+
 - "Reconfigured Settings"
 
 - Removed need for namedfields in constants.js
 
 - Changed all numerical setting choice id's to human friendly id's.
-    This is going to cause some issues with current settings. 
-    You will be prompted to restore the module to default settings when you update to v3.1.4 or a later version from v3.1.3 or earlier version.
-    Not restoring to default settings may cause unwanted results. Sorry for any inconvenience.
+  This is going to cause some issues with current settings.
+  You will be prompted to restore the module to default settings when you update to v3.1.4 or a later version from v3.1.3 or earlier version.
+  Not restoring to default settings may cause unwanted results. Sorry for any inconvenience.
 
-    Full Disclosure: I had several settings that were id'd with labels like "0", "1", "2", etc. 
-    This was beginning to become unmanageable - so I got in front of it now instead of when I had a list of choices 20+ deep.
-    Future settings will have a human friendly name going forward. If the value represents a number (like NumberOfSetsRolled), 
-    then it will be labeled as such. i.e. "6", "7", "8", "9"...
+  Full Disclosure: I had several settings that were id'd with labels like "0", "1", "2", etc.
+  This was beginning to become unmanageable - so I got in front of it now instead of when I had a list of choices 20+ deep.
+  Future settings will have a human friendly name going forward. If the value represents a number (like NumberOfSetsRolled),
+  then it will be labeled as such. i.e. "6", "7", "8", "9"...
 
+## [v3.1.3] - 8/8/2022
 
-[v3.1.3] - 8/8/2022
-----------------------------------------------
 - Added "variant" ability score interface to Configure Actor form. Races with variant ability score increases can now move those values around.
-  Currently these only include Humans and Harengon on "sw5e" and "pf1" support. 
+  Currently these only include Humans and Harengon on "sw5e" and "pf1" support.
   If you find any races that should have variant ability score increases, please let me know.
 
 - FIXED: Show Die Result Set was only showing if Ability Results was checked. You can now show them separately.
@@ -45,37 +50,36 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   Gets next empty drop zone identified by drop_zone_class
 
 Enhanced Support:
+
 - New Setting: Show Other Property Results
-    Select how you want Other Property Results displayed with Result Description. 
-    Other Properties Results are other rolls executed by Enhanced Support for things like class, equipment, weapons, armor, etc.
-    Choices: "Do not show"
-             "With result description"
-             "In place of result description"
+  Select how you want Other Property Results displayed with Result Description.
+  Other Properties Results are other rolls executed by Enhanced Support for things like class, equipment, weapons, armor, etc.
+  Choices: "Do not show"
+  "With result description"
+  "In place of result description"
 
 - New Setting: Include Result Description
-    This setting will include result description from Other Property Results on character sheet; such as in Biography, Backstory or Notes.
+  This setting will include result description from Other Property Results on character sheet; such as in Biography, Backstory or Notes.
 
+## [v3.1.2] - 8/1/2022
 
-[v3.1.2] - 8/1/2022
-----------------------------------------------
 - FIXED: Players with "Create Actor" permission will now see the [Configure Actor] button.
 
 - FIXED: Text box css style for Actor Name.
 
+## [v3.1.1] - 7/30/2022
 
-[v3.1.1] - 7/30/2022
-----------------------------------------------
 "Consolidated Settings and some misc stuff"
 
 - Consolidated "Chat Settings" into (restricted) sub menu button.
 
 - Consolidated "Roll Method & Distribution" into (restricted) sub menu button.
 
-- New Setting - "Reverse Ring Method Scrolling" (Client): 
-    check/uncheck - [check] Reverse the default mouse wheel scroll direction during Ring Method selection.
+- New Setting - "Reverse Ring Method Scrolling" (Client):
+  check/uncheck - [check] Reverse the default mouse wheel scroll direction during Ring Method selection.
 
 - New Setting - "Die Result Set" (World):
-    check/uncheck - [check] Show all die rolls, excluding rerolled and discarded rolls, as a set in chat message. e.g. d6 = [1, 2, 3,...]
+  check/uncheck - [check] Show all die rolls, excluding rerolled and discarded rolls, as a set in chat message. e.g. d6 = [1, 2, 3,...]
 
 - FIXED: Result Zone was not hiding for Ring Method - no reason to show Result Zone for Ring Method.
 
@@ -95,56 +99,56 @@ Enhanced Support:
 
 - Changed wording on chat settings hints, "Hide Result Zone" hint and "Scores Over 18 Allowed" hint.
 
+## [v3.1.0] - 7/27/2022
 
-[v3.1.0] - 7/27/2022
-----------------------------------------------
 "New result distribution option: Ring Method"
 
-All Supported Game Systems: 
-- Fixed - Some settings were not persisting between rolls when settings changed. 
-         Previous roll's settings will now maintain original settings even if current settings are changed.
+All Supported Game Systems:
+
+- Fixed - Some settings were not persisting between rolls when settings changed.
+  Previous roll's settings will now maintain original settings even if current settings are changed.
 
 - New Setting - "Distribution Method" (World) - Replaces "Distribute Results" setting.
-    
-    Choices: Apply as Rolled(default), Distribute Freely, Ring Method
-    Apply as Rolled(default): Results are applied to abilities in the order they were rolled.
-    Distribute Freely       : Results may be distributed freely among abilities.
-    Ring Method*            : Select three consecutive die rolls and apply them to any ability. 
-    (Watch https://www.youtube.com/watch?v=dxZ9Mk_FdNc for more info on how Ring Method works)
 
-    * Thank you @SabreRunner for this suggestion!
+  Choices: Apply as Rolled(default), Distribute Freely, Ring Method
+  Apply as Rolled(default): Results are applied to abilities in the order they were rolled.
+  Distribute Freely : Results may be distributed freely among abilities.
+  Ring Method\* : Select three consecutive die rolls and apply them to any ability.
+  (Watch https://www.youtube.com/watch?v=dxZ9Mk_FdNc for more info on how Ring Method works)
+
+  - Thank you @SabreRunner for this suggestion!
 
 - Expanded "Number of Sets Rolled" options: Added "8 Sets" and "9 Sets".
 
+## [v3.0.4] - 07/23/2022
 
-[v3.0.4] - 07/23/2022
-----------------------------------------------
 - Prefixed all css classes with "rncs-" and changed "stylesheet.css" to "rncs-styles.css" just to be safe after my screwup with input elements.
 - Corrected v3.0.3 release date in changes.txt
 
+## [v3.0.3] - 7/22/2022
 
-[v3.0.3] - 7/22/2022
-----------------------------------------------
-All Supported Game Systems: 
+All Supported Game Systems:
+
 - FIXED - "Score*" and "* No scores over 18 allowed." text were being displayed when they should not be.
 - REMOVED - "drop result here" tool tip removed from Configure Actor form Results column. It was annoying me.
 
 Enhanced DCC Support:
+
 - FIXED - Roll New Character Stats (RNCS) was causing style conflict with input elements on other modules. My bad.
-    A kind thank you goes to @Mortati for reporting.
+  A kind thank you goes to @Mortati for reporting.
 - Implemented Random character names - picked from "Appendix S: Sobriquets".
-    This was a cool suggestion from @Klaus.
+  This was a cool suggestion from @Klaus.
 
 General:
+
 - Some minor code refactoring.
 - More comment cleanup.
 
+## [v3.0.2] - 7/20/2022
 
-[v3.0.2] - 7/20/2022
-----------------------------------------------
 - Wait for Dice So Nice! Animation: Chat message will now only display after Dice So Nice! animation is complete - if installed and enabled.
-    This results in a longer wait for all rolls to be complete and displayed (it's literally just a couple seconds between each roll).
-    But it does add to the suspense a bit. :)
+  This results in a longer wait for all rolls to be complete and displayed (it's literally just a couple seconds between each roll).
+  But it does add to the suspense a bit. :)
 
 - Settings: Opened up "Number Of Actors" (world) setting to all game systems.
 
@@ -152,23 +156,21 @@ General:
 
 - Clarified some comments
 
+## [v3.0.1] - 7/19/2022
 
-[v3.0.1] - 7/19/2022
-----------------------------------------------
 Enhanced DCC Support:
 Populate "Saving Throw" modifiers, "AC", "Init" modifier, and "To Hit" & "Damage" modifiers.
 
-Corrected version tag for previous entry in this file. 
+Corrected version tag for previous entry in this file.
 
+## [v3.0.0] - 7/19/2022
 
-[v3.0.0] - 7/19/2022
-----------------------------------------------
-Refactored lots of stuff. 
+Refactored lots of stuff.
 This just means I hopefully improved a lot of the code without changing the overall module.
 The focus of this refactoring was to make it simpler for me to add enhanced game system support.
 The use of gamesystem-actor-helpers makes this possible. Each gamesystem-actor-helper is customized to roll the appropriate
-dice for "other properties" - i.e. hit points, money, equipment, etc. The base-actor-helper contains properties common to most game systems, while the 
-game system specific actor-helper (handler?) handles the properties unique to the game system. 
+dice for "other properties" - i.e. hit points, money, equipment, etc. The base-actor-helper contains properties common to most game systems, while the
+game system specific actor-helper (handler?) handles the properties unique to the game system.
 At the time of this release, Dungeon Crawl Classics (DCC) is the only game system with the enhanced game system support. I look forward to adding
 enhanced support for other game systems in the near future.
 
@@ -183,13 +185,12 @@ Remove Configure Actor Button (World) - "This setting will remove the Configure 
 Show Condensed Ability Results (World) = "Display Ability results in condensed form if Show Results Text is checked."
 
 Late Entries:
-(v2.2.33) General: Hide Bonus Points column when "0 Bonus Points" is selected. 
-                   Hide Score column when "0 Bonus Points" is selected and "Distribute Results" is unchecked.  
+(v2.2.33) General: Hide Bonus Points column when "0 Bonus Points" is selected.
+Hide Score column when "0 Bonus Points" is selected and "Distribute Results" is unchecked.  
 (v2.2.32) Enhanced DCC Support - Added more info in Notes tab.
 
+## [v2.2.33] - 7/13/2022
 
-[v2.2.33] - 7/13/2022
-----------------------------------------------
 Enhanced DCC Support - fixed some more things
 Determine hit points; roll 1d4, adjusted by Stamina modifier.
 Determine starting money; roll 5d12 copper pieces.
@@ -197,8 +198,8 @@ Determine starting money; roll 5d12 copper pieces.
 General:
 Fixed "Over 18 Allowed" setting which was not working properly.
 
-[v2.2.32] - 7/13/2022
-----------------------------------------------
+## [v2.2.32] - 7/13/2022
+
 Enhanced DCC Support - fixed some things
 Add Shortbow ammo (Arrows) to character sheet - Missed adding Arrows for Shortbow Trade Weapon.
 Flint & Steel was not beeing added to character sheet.
@@ -206,15 +207,13 @@ Flint & Steel was not beeing added to character sheet.
 New Setting: (All Supported Game Systems)
 Hide Results Zone (World) - This setting will hide Results Zone when DistributeResults is unchecked.
 
+## [v2.2.31] - 7/12/2022
 
-[v2.2.31] - 7/12/2022
-----------------------------------------------
-Enhanced DCC Support - fix slings 
+Enhanced DCC Support - fix slings
 Slings were not being added to character sheet
 
+## [v2.2.3] - 7/12/2022
 
-[v2.2.3] - 7/12/2022
-----------------------------------------------
 Enhanced DCC Support
 This release brings a couple new settings unique to Dungeon Crawl Classics (DCC)
 Number of Actors (Client) - Enter how many actors do you want rolled. Use with caution if Dice So Nice! is enabled.
@@ -224,32 +223,29 @@ All Game Systems:
 Dice So Nice! (Client) - If checked, and Dice So Nice! is installed and enabled, 3D dice will be rolled across your screen only.
 
 DCC Enhanced Support:
-Roll New Character Stats (RNCS) will now fully roll 0-Level DCC characters! Occupation, Equipment and Luck are all rolled when 
+Roll New Character Stats (RNCS) will now fully roll 0-Level DCC characters! Occupation, Equipment and Luck are all rolled when
 the Actor is accepted by the player. RNCS follows the rules for farmers, herders, slings, darts, etc.
 
 Roll them Dice! > Configure > Accept > Play!
 
-NOTE: As I was writing this release, I just remembered I did not set up a test for user permissions for Create New Actor or 
-hide the Configure New Actor button. Please note, players will not be able to Configure > Accept New Actor if Create New Actor 
+NOTE: As I was writing this release, I just remembered I did not set up a test for user permissions for Create New Actor or
+hide the Configure New Actor button. Please note, players will not be able to Configure > Accept New Actor if Create New Actor
 is off for the user type as set in Permissions. This is not a big priority at the moment and will be addressed in a future release.
 
+## [v2.2.2] - 7/9/2022
 
-[v2.2.2] - 7/9/2022
-----------------------------------------------
 Implemented support for Dungeon Crawl Classics - "dcc". Purple Scorcerer Games has this stuff covered - but why not, right?
 Added settings to hide/show method, difficulty, results, bonus and/or dm note in chat message.
 
+## [v2.2.1] - 7/9/2022
 
-[v2.2.1] - 7/9/2022
-----------------------------------------------
 Fixed Hooks.on("renderChatLog", (app, [html]) to prevent console error when any other message is clicked.
-Implemented support for Old School Essentials - "ose". Races do not exist in OSE - only classes. 
+Implemented support for Old School Essentials - "ose". Races do not exist in OSE - only classes.
 Implemented support for ToolKit13 Character Sheet (13th Age Compatible) - "archmage". Has weirdly named races in "Races" compendium. More research on this system required.
 Hide Race drop down and Race Bonus columns for "ose" and "archmage" game systems.
 
+## [v2.2.0] - 7/8/2022
 
-[v2.2.0] - 7/8/2022 
-----------------------------------------------
 A little house cleaning as always.
 Removed "dnd4e" from module.json - it has issues with my module creating New Actor at the moment. Says "type" is not in the array of allowed types.
 Modified "pf1e" to the correct value "pf1".
@@ -258,7 +254,7 @@ Changed /data/racial-bonus.json to /data/character-properties.json and expanded 
 Removed /scripts/character-properties.js.
 Added vanilla pf1 races to /data/character-properties.json.
 Added /data/pf1-flavored-races(not used).json - just to keep some of the "pf1 flavored race" entries handy.
-Added /data/game-system-helper.js for getting game system specific data from json files. 
+Added /data/game-system-helper.js for getting game system specific data from json files.
 Modified DM Note to NOT display "over 18" rules when they don't apply* - even if "Allow Over 18" is not selected in settings.
 *Over 18 setting/rules are ignored when scores are applied as rolled (not distributed) and there are no Bonus Points awarded.
 Moved "abilities" (i.e. "str", "dex", etc.) to /data/character-properties.json under each game system.
@@ -273,4 +269,4 @@ See /todo-list.txt for other items of interest
 Changed 'Undecided' to 'Race Unknown'
 Character name will default to selected Race when left blank or as "New Actor".
 Added some more localization.
-Made some changes to [abl]_final_score on /templates/form-apps/distribute-ability-scores.html to work better with game systems using race items (i.e. pf1)
+Made some changes to [abl]\_final_score on /templates/form-apps/distribute-ability-scores.html to work better with game systems using race items (i.e. pf1)

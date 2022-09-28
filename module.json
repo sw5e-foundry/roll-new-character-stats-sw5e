@@ -9,7 +9,7 @@
     "changelog": "",
     "styles":["styles/rncs-styles.css"],
     "systems": [
-      "sw5e",
+      "dnd5e",
       "pf1",
       "ose",
       "archmage",
@@ -26,9 +26,9 @@
         "path": "lang/en.json"
       }
     ],
-    "manifest": "https://raw.githubusercontent.com/MrXofar/roll-new-character-stats/master/module.json",
-    "download": "https://github.com/MrXofar/roll-new-character-stats/archive/refs/tags/v3.1.4.zip",
-    "url": "https://github.com/MrXofar/roll-new-character-stats",
-    "readme": "https://github.com/MrXofar/roll-new-character-stats/blob/master/README.md",
+    "manifest": "https://github.com/unrealkakeman89/roll-new-character-stats-sw5e/releases/latest/download/module.json",
+    "download": "https://github.com/unrealkakeman89/roll-new-character-stats-sw5e/releases/latest/download/roll-new-characters-stats-sw5e.zip",
+    "url": "https://github.com/unrealkakeman89/roll-new-character-stats-sw5e",
+    "readme": "https://github.com/unrealkakeman89/roll-new-character-stats-sw5e/blob/main/README.md",
     "bugs": "https://github.com/unrealkakeman89/roll-new-character-stats-sw5e/issues"
   }
