@@ -1,6 +1,6 @@
 # Roll New Character Stats SW5E
 ![GitHub Latest Release](https://img.shields.io/github/release/unrealkakeman89/roll-new-character-stats-sw5e?style=flat-square)
-![GitHub Downloads Latest](https://img.shields.io/github/downloads/unrealkakeman89/roll-new-character-stats-sw5e/latest/sw5e-companions.zip?style=flat-square)
+![GitHub Downloads Latest](https://img.shields.io/github/downloads/unrealkakeman89/roll-new-character-stats-sw5e/latest/roll-new-character-stats-sw5e.zip?style=flat-square)
 ![License](https://img.shields.io/github/license/unrealkakeman89/roll-new-character-stats-sw5e?style=flat-square)
 # OG README FROM OG AUTHOR MrXofar
 Rolling attributes in the Foundry system can be a bit cumbersome depending on what method is used. Whether you are completely writing out the /roll formulas, clicking on sets of dice multiple times and applying your method consistently accross new players in your campaign - the process to get a new character's attributes can take time away from play. 
