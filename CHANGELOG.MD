@@ -1,4 +1,16 @@
-v3.1.4 - 8/12/2022
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [v1.0.0] - 2022-09-01
+
+### Changed
+
+- initial commit for system support
+
+[v3.1.4] - 8/12/2022
 ----------------------------------------------
 - "Reconfigured Settings"
 
@@ -15,7 +27,7 @@ v3.1.4 - 8/12/2022
     then it will be labeled as such. i.e. "6", "7", "8", "9"...
 
 
-v3.1.3 - 8/8/2022
+[v3.1.3] - 8/8/2022
 ----------------------------------------------
 - Added "variant" ability score interface to Configure Actor form. Races with variant ability score increases can now move those values around.
   Currently these only include Humans and Harengon on "sw5e" and "pf1" support. 
@@ -44,14 +56,14 @@ Enhanced Support:
     This setting will include result description from Other Property Results on character sheet; such as in Biography, Backstory or Notes.
 
 
-v3.1.2 - 8/1/2022
+[v3.1.2] - 8/1/2022
 ----------------------------------------------
 - FIXED: Players with "Create Actor" permission will now see the [Configure Actor] button.
 
 - FIXED: Text box css style for Actor Name.
 
 
-v3.1.1 - 7/30/2022
+[v3.1.1] - 7/30/2022
 ----------------------------------------------
 "Consolidated Settings and some misc stuff"
 
@@ -84,7 +96,7 @@ v3.1.1 - 7/30/2022
 - Changed wording on chat settings hints, "Hide Result Zone" hint and "Scores Over 18 Allowed" hint.
 
 
-v3.1.0 - 7/27/2022
+[v3.1.0] - 7/27/2022
 ----------------------------------------------
 "New result distribution option: Ring Method"
 
@@ -105,13 +117,13 @@ All Supported Game Systems:
 - Expanded "Number of Sets Rolled" options: Added "8 Sets" and "9 Sets".
 
 
-v3.0.4 - 07/23/2022
+[v3.0.4] - 07/23/2022
 ----------------------------------------------
 - Prefixed all css classes with "rncs-" and changed "stylesheet.css" to "rncs-styles.css" just to be safe after my screwup with input elements.
 - Corrected v3.0.3 release date in changes.txt
 
 
-v3.0.3 - 7/22/2022
+[v3.0.3] - 7/22/2022
 ----------------------------------------------
 All Supported Game Systems: 
 - FIXED - "Score*" and "* No scores over 18 allowed." text were being displayed when they should not be.
@@ -128,7 +140,7 @@ General:
 - More comment cleanup.
 
 
-v3.0.2 - 7/20/2022
+[v3.0.2] - 7/20/2022
 ----------------------------------------------
 - Wait for Dice So Nice! Animation: Chat message will now only display after Dice So Nice! animation is complete - if installed and enabled.
     This results in a longer wait for all rolls to be complete and displayed (it's literally just a couple seconds between each roll).
@@ -141,7 +153,7 @@ v3.0.2 - 7/20/2022
 - Clarified some comments
 
 
-v3.0.1 - 7/19/2022
+[v3.0.1] - 7/19/2022
 ----------------------------------------------
 Enhanced DCC Support:
 Populate "Saving Throw" modifiers, "AC", "Init" modifier, and "To Hit" & "Damage" modifiers.
@@ -149,7 +161,7 @@ Populate "Saving Throw" modifiers, "AC", "Init" modifier, and "To Hit" & "Damage
 Corrected version tag for previous entry in this file. 
 
 
-v3.0.0 - 7/19/2022
+[v3.0.0] - 7/19/2022
 ----------------------------------------------
 Refactored lots of stuff. 
 This just means I hopefully improved a lot of the code without changing the overall module.
@@ -176,7 +188,7 @@ Late Entries:
 (v2.2.32) Enhanced DCC Support - Added more info in Notes tab.
 
 
-v2.2.33 - 7/13/2022
+[v2.2.33] - 7/13/2022
 ----------------------------------------------
 Enhanced DCC Support - fixed some more things
 Determine hit points; roll 1d4, adjusted by Stamina modifier.
@@ -185,7 +197,7 @@ Determine starting money; roll 5d12 copper pieces.
 General:
 Fixed "Over 18 Allowed" setting which was not working properly.
 
-v2.2.32 - 7/13/2022
+[v2.2.32] - 7/13/2022
 ----------------------------------------------
 Enhanced DCC Support - fixed some things
 Add Shortbow ammo (Arrows) to character sheet - Missed adding Arrows for Shortbow Trade Weapon.
@@ -195,13 +207,13 @@ New Setting: (All Supported Game Systems)
 Hide Results Zone (World) - This setting will hide Results Zone when DistributeResults is unchecked.
 
 
-v2.2.31 - 7/12/2022
+[v2.2.31] - 7/12/2022
 ----------------------------------------------
 Enhanced DCC Support - fix slings 
 Slings were not being added to character sheet
 
 
-v2.2.3 - 7/12/2022
+[v2.2.3] - 7/12/2022
 ----------------------------------------------
 Enhanced DCC Support
 This release brings a couple new settings unique to Dungeon Crawl Classics (DCC)
@@ -222,13 +234,13 @@ hide the Configure New Actor button. Please note, players will not be able to Co
 is off for the user type as set in Permissions. This is not a big priority at the moment and will be addressed in a future release.
 
 
-v2.2.2 - 7/9/2022
+[v2.2.2] - 7/9/2022
 ----------------------------------------------
 Implemented support for Dungeon Crawl Classics - "dcc". Purple Scorcerer Games has this stuff covered - but why not, right?
 Added settings to hide/show method, difficulty, results, bonus and/or dm note in chat message.
 
 
-v2.2.1 - 7/9/2022
+[v2.2.1] - 7/9/2022
 ----------------------------------------------
 Fixed Hooks.on("renderChatLog", (app, [html]) to prevent console error when any other message is clicked.
 Implemented support for Old School Essentials - "ose". Races do not exist in OSE - only classes. 
@@ -236,7 +248,7 @@ Implemented support for ToolKit13 Character Sheet (13th Age Compatible) - "archm
 Hide Race drop down and Race Bonus columns for "ose" and "archmage" game systems.
 
 
-v2.2.0 - 7/8/2022 
+[v2.2.0] - 7/8/2022 
 ----------------------------------------------
 A little house cleaning as always.
 Removed "dnd4e" from module.json - it has issues with my module creating New Actor at the moment. Says "type" is not in the array of allowed types.
