@@ -1,6 +1,6 @@
 {
-    "name": "roll-new-character-stats",
-    "title": "Roll New Character Stats (RNCS)",
+    "name": "roll-new-character-stats-sw5e",
+    "title": "Roll New Character Stats (RNCS) SW5E",
     "description": "Small mod for rolling new table-top-rpg character stats to get your game rolling!",
     "author": "Richard Fox",
     "version": "3.1.4",
@@ -13,7 +13,8 @@
       "pf1",
       "ose",
       "archmage",
-      "dcc"
+      "dcc",
+      "sw5e"
     ], 
     "esmodules": [
       "scripts/main.js"
@@ -29,5 +30,5 @@
     "download": "https://github.com/MrXofar/roll-new-character-stats/archive/refs/tags/v3.1.4.zip",
     "url": "https://github.com/MrXofar/roll-new-character-stats",
     "readme": "https://github.com/MrXofar/roll-new-character-stats/blob/master/README.md",
-    "bugs": "https://github.com/MrXofar/roll-new-character-stats/issues"
+    "bugs": "https://github.com/unrealkakeman89/roll-new-character-stats-sw5e/issues"
   }
