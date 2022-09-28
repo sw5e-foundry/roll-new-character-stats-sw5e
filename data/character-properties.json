@@ -1,0 +1,873 @@
+{
+    "game_system": [
+        {
+            "sw5e": {
+                "abilities": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ],
+                "races": [
+                    {
+                        "race": "Species Unknown",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    }
+                ]
+            },
+            "pf1": {
+                "abilities": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ],
+                "races": [
+                    {
+                        "race": "Race Unknown",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Aasimar",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Adaro",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "2",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Android",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Aphorite",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "-2",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Aquatic Elf",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Astomoi",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Caligni",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Catfolk",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Cecaelia",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Changeling",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Deep One Hybrid",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "-2",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Denizen of Leng",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Dhampir",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Drow",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Drow Noble",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "4",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Duergar",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-4"
+                    },
+                    {
+                        "race": "Duskwalker",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Dwarf",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Elf",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Fetchling",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Ganzi",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Gathlain",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Ghoran",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Gillman",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Gnome",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Goblin",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "4",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Green Martian",
+                        "asi_any": [],
+                        "str": "4",
+                        "dex": "-2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Grindylow",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "4",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "-2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Grippli",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Half-Elf",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Half-Orc",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Halfling",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Harengon",
+                        "asi_any": ["1","1","1"],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Harengon - Variant",
+                        "asi_any": ["2","1"],
+                        "str": "0",
+                        "dex": "1",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Hobgoblin",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Human",
+                        "asi_any": ["2"],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Ifrit",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Kasatha",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Kitsune",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Kobold",
+                        "asi_any": [],
+                        "str": "-4",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Kuru",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Lashunta (Male)",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "-2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Lashunta (Female)",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Locathah",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Merfolk",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Monkey Goblin",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "4",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Munavri",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "4",
+                        "con": "2",
+                        "int": "2",
+                        "wis": "2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Nagaji",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Naiad",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Ogre",
+                        "asi_any": [],
+                        "str": "6",
+                        "dex": "-2",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Orang-Pendak",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Orc",
+                        "asi_any": [],
+                        "str": "4",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "-2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Oread",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Ratfolk",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Reborn Samsaran",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Reptoid",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "-2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Rougarou",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Sahuagin",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Samsaran",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Shabti",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Skinwalker",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Strix",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Suli",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "0",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Svirfneblin",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-4"
+                    },
+                    {
+                        "race": "Sylph",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Syrinx",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "-2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Tengu",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "-2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Tiefling",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Triaxian",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Triton",
+                        "asi_any": [],
+                        "str": "2",
+                        "dex": "-2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "0",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Trox",
+                        "asi_any": [],
+                        "str": "8",
+                        "dex": "-2",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "-2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Undine",
+                        "asi_any": [],
+                        "str": "-2",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Vanara",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "2",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Vine Leshy",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Vishkanya",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "0",
+                        "wis": "-2",
+                        "cha": "2"
+                    },
+                    {
+                        "race": "Wayang",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "-2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Wyrwood",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "2",
+                        "wis": "0",
+                        "cha": "-2"
+                    },
+                    {
+                        "race": "Wyvaran",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "2",
+                        "con": "0",
+                        "int": "-2",
+                        "wis": "2",
+                        "cha": "0"
+                    },
+                    {
+                        "race": "Yaddithian",
+                        "asi_any": [],
+                        "str": "0",
+                        "dex": "0",
+                        "con": "2",
+                        "int": "2",
+                        "wis": "-2",
+                        "cha": "0"
+                    }
+                ]
+            },
+            "ose": {
+                "abilities": [
+                    "str",
+                    "int",
+                    "wis",
+                    "dex",
+                    "con",
+                    "cha"
+                ],
+                "races": []
+            },
+            "archmage": {
+                "abilities": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ],
+                "races": []
+            },
+            "dcc": {
+                "abilities": [
+                    "str",
+                    "agl",
+                    "sta",
+                    "per",
+                    "int",
+                    "lck"
+                ],
+                "races": []
+            }
+        }
+    ]
+}

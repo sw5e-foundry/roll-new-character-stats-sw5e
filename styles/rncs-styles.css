@@ -1,0 +1,197 @@
+  .rncs-results-header{
+    padding-left: 7px !important;
+    padding-right: 3px !important;
+    height: 3em;
+    font-size: small;
+    font-style: italic;
+  }
+  .rncs-results-drop-zone{
+    width: 100%;
+    padding: 5px;
+    height: 3em;
+    font-size: small;
+    font-style: italic;
+    text-align: left;
+  }
+  .rncs-ability-drop-item, .rncs-ring-ability-drop-item, .rncs-variant-mod-drop-item {
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    border: 2px groove #FFF;
+    border-radius: 5px;
+    padding: 6px 0px 0px 0px;
+    font-size: 11px;
+    font-style: normal !important;
+    margin: -2px 1px 0px 1px !important;
+  }  
+  .rncs-final-score-display{
+    border: none;
+    background-color: transparent;
+    height: 2.5em; 
+    width: 2.5em;
+    text-align: center;
+    font-size: 1em;
+  }
+  .rncs-final-score-unmod{
+    display: none;
+  }
+  .rncs-display-none{    
+    display: none !important;
+  }
+  .rncs-modifier{
+    border: none;
+    background-color: transparent;
+    height: 2.5em; 
+    width: 2.5em;
+    text-align: center;
+    font-size: .9em;
+  }
+  .rncs-header-row, .rncs-ability-row{
+    text-align: center;
+    font-size: small;
+  }
+  .rncs-bp-button{    
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #413737; 
+  }
+  .rncs-bp-button:hover{
+    background-color: #C5C3B8;
+  }
+  .rncs-bp-button-minus{   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .rncs-bp-button-plus{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .rncs-ability-text{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: var(--modesto);
+    font-weight: 700;
+  }
+  .rncs-over18{
+    color: red;
+  }
+  .rncs-input, .rncs-select{
+    height: 1.8em;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 1px 3px;
+    margin: 0;
+    color: var(--color-text-dark-primary);
+    font-family: inherit;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    border: 1px solid var(--color-border-light-tertiary);
+    border-radius: 3px;
+    width: 100%;
+  }
+  .rncs-select{    
+    width: 100%;
+  }
+  .rncs-div-label{
+    width:15%;display: inline-block;
+  }
+  .rncs-div-user-input{
+    width:84%;display: inline-block;
+  }
+  .rncs-ring-wrapper{ 
+    position: relative; 
+    height: 30px;
+    overflow: hidden;
+  }
+  .rncs-ring-wrapper{  
+    display: flex;
+    justify-content: center;
+  }
+  .rncs-ring-container{  
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+  }
+  .rncs-ring-item{
+    display: inline-block;
+    width: 2.7em;
+    height: 2.7em;
+    text-align: center;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    padding: 7px 0px 0px 0px;
+    font-size: 10px;
+    font-style: normal !important;
+    margin: 3px 3px 0px 3px;
+  }
+  .rncs-ring-item-adder{
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+    border: 1px solid rgb(87, 84, 84);
+    border-radius: 5px;
+    padding: 7px 0px 0px 0px;
+    font-size: 12px;
+    font-style: normal !important;
+    margin: 2px 1px 5px 1px
+  }
+  .rncs-ring-selection{
+    color: #460fcb !important;
+    border-radius: 5px !important;
+    border: 1px solid !important;
+    padding-top: 1px !important;
+    margin-right: 1px;
+  }
+  .rncs-individual-roll-used{
+    color: #a9a39d;   
+  }
+  .rncs-individual-roll{ 
+    border: 1px solid transparent;
+    padding-top: 1px;   
+    margin-right: 1px;   
+    flex: auto;
+    text-align: center;
+  }
+  .rncs-results-container{
+    align-items: stretch;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.7em;
+  }
+  .rncs-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .rncs-form-group{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3px 0;
+    align-items: center;
+    padding: 5px 2px 5px 9px;
+  }
+  .rncs-form-group .rncs-form-fields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .rncs-form-group:hover{
+    background-color: #88868123;    
+  }
+  .rncs-form-group > * {
+    flex: 3;
+  }
+  .rncs-form-group-indent {
+    font-size: smaller;
+    padding-left: 25px !important;
+    flex: 1 !important;
+  }
